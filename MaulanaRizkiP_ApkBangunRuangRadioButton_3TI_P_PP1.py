@@ -109,7 +109,7 @@ class MainForm(QWidget):
     def btnstate(self):
         if self.radioedit.isChecked():
             self.calculate('ok')
-        elif self.radioedit2.isChecked:
+        elif self.radioedit2.isChecked():
             self.calculate('okk')
 
         
