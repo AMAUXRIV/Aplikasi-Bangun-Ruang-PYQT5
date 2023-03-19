@@ -9,7 +9,8 @@ class MainForm(QWidget):
         self.setupUi()
     
     def setupUi(self):
-        self.resize(400, 200)
+        self.resize(400, 200) 
+        
         self.move(400, 300)
         self.setWindowTitle('Form Luas Volume')
         
